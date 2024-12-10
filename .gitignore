@@ -1,0 +1,16 @@
+# Ignore all .class files
+*.class
+
+# Ignore the bin/ or build/ directory where compiled files are often stored (optional, but recommended)
+bin/
+build/
+
+# Ignore the target directory (for Maven/Gradle projects, optional)
+target/
+
+# Ignore the .idea folder (for IntelliJ IDEA projects, optional)
+.idea/
+
+# Ignore Eclipse project settings (optional)
+.classpath
+.project
