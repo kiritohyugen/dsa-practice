@@ -146,3 +146,43 @@ class Main{
         System.out.println("Is palindrome? " + solution.isPalindrome(head3)); // Output: true
     }
 }
+
+
+
+
+
+
+
+
+
+// /**
+//  * Definition for singly-linked list.
+//  * public class ListNode {
+//  *     int val;
+//  *     ListNode next;
+//  *     ListNode() {}
+//  *     ListNode(int val) { this.val = val; }
+//  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+//  * }
+//  */
+// class Solution {
+//     static int[] vals = new int[131072];
+
+
+//     public boolean isPalindrome(ListNode head) {
+//         int i = 0, l = 0;
+//         while (head != null) {
+//             vals[i++] = head.val;
+//             head = head.next;
+//         }
+
+//         while (i > l) {
+//             if (vals[l++] != vals[--i])
+//                 return false;
+//         }
+
+//         return true;
+//     }
+
+    
+// }
